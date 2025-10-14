@@ -1,19 +1,19 @@
 # 🗞️ rss_daily-paper-generator（RSS每日新闻生成）
 
 一个轻量级、可自定义的 Python 工具，用于抓取并格式化 RSS 内容，自动生成简洁的每日资讯摘要。
-用户只需替换 RSS 源，即可生成属于自己的“每日新闻简报”——无论是 AI、科技、财经还是体育内容都适用。
+用户只需替换 RSS 源，即可生成属于自己的"每日新闻简报"——无论是 AI、科技、财经还是体育内容都适用。
 
-A lightweight, customizable Python tool that aggregates and formats RSS feeds into a clean daily news digest.  
-Simply replace the RSS sources with your own to generate your personalized “daily paper” — perfect for AI, tech, finance, sports, or any topic you follow.
+A lightweight, customizable Python tool that aggregates and formats RSS feeds into a clean daily news digest.
+Simply replace the RSS sources with your own to generate your personalized "daily paper" — perfect for AI, tech, finance, sports, or any topic you follow.
 
 ---
 
 ## 🌟 Features/功能特点
 
-- **Universal RSS support/ 支持所有 RSS 源** — Works with any valid RSS/Atom feed  
-- **Customizable sources/ 自定义数据源** — Replace or expand your RSS feeds easily  
-- **Optional translation/ 可选翻译** — Automatically translate foreign content into Chinese  
-- **Standardized output/ 标准化输出** — Title, summary, link, and publish time in unified format  
+- **Universal RSS support/ 支持所有 RSS 源** — Works with any valid RSS/Atom feed
+- **Customizable sources/ 自定义数据源** — Replace or expand your RSS feeds easily
+- **Optional translation/ 可选翻译** — Automatically translate foreign content into Chinese
+- **Standardized output/ 标准化输出** — Title, summary, link, and publish time in unified format
 - **Lightweight/ 轻量化依赖** — Only needs `feedparser` and `requests`
 
 ---
