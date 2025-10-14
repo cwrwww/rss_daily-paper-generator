@@ -1,0 +1,12 @@
+# Core dependencies
+feedparser==6.0.11
+requests==2.31.0
+
+# Optional but recommended
+schedule==1.2.1
+
+# Translation (if using translator.py with MyMemory API)
+urllib3==2.2.2
+
+# Time and encoding support (usually built-in but kept for consistency)
+python-dateutil==2.9.0.post0
