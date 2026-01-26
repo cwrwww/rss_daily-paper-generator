@@ -64,15 +64,15 @@ def run_community_daily_report():
     focus_report = generate_daily_report(focus_news, category="社区热点聚焦")
 
     # === Step 4: 拼接成完整日报 ===
-    full_report = f"""# HackerNews社区热点日报
+    full_report = f""" HackerNews社区热点日报
 
-## 📰 社区热点
+ 📰 社区热点
 
 {community_report}
 
 ---
 
-## 🎯 社区热点聚焦
+ 🎯 社区热点聚焦
 
 {focus_report}
 """
@@ -88,4 +88,5 @@ def run_community_daily_report():
 
 if __name__ == "__main__":
     # 运行示例
-    run_daily("国内AI新闻")
+    #run_daily("国外AI新闻")
+    run_community_daily_report()
