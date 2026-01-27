@@ -88,5 +88,5 @@ def run_community_daily_report():
 
 if __name__ == "__main__":
     # 运行示例
-    #run_daily("国外AI新闻")
+    run_daily("国外AI新闻")
     run_community_daily_report()
